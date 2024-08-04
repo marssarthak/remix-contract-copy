@@ -1,0 +1,23 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "deploy:testnet": "npx hardhat run --network fantomtestnet scripts/deploy2.ts",
+    "polygon:testnet": "npx hardhat run --network polygontestnet scripts/deploy2.ts",
+    "deploy:mainnet": "npx hardhat run --network fantom scripts/deploy.ts",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@types/node": "^20.6.0",
+    "@types/node-cron": "^3.0.8",
+    "hardhat": "^2.17.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.2"
+  }
+}

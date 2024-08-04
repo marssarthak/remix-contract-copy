@@ -1,0 +1,1639 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/ChainLink.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "7322a276a0990c31b22099d1477b8af7",
+      "sourceName": "contracts/ChainLink.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "ChainLinkToken"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1722698191070,
+      "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1722698190649,
+      "contentHash": "3ae5166c6827a9cf1a7a462d1632b464",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1722698190595,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1722698190827,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1722698190811,
+      "contentHash": "df36f7051335cd1e748b1b6463b7fdd3",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/ERC20.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "db973c3f108dcc8f59bffe7331b8482e",
+      "sourceName": "contracts/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "MyToken"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/Chainlink.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "8a818bfd226b7155fbe44bc6d293e86b",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/Chainlink.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./vendor/CBORChainlink.sol",
+        "./vendor/BufferChainlink.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Chainlink"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/vendor/CBORChainlink.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "83d2a9e5d20a1d690ca53647db7649df",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/vendor/CBORChainlink.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BufferChainlink.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.19"
+      ],
+      "artifacts": [
+        "CBORChainlink"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/vendor/BufferChainlink.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "19e207ed9d66586b524223974a6a638c",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/vendor/BufferChainlink.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BufferChainlink"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/ChainlinkClient.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "c9404e37d7fbb61d4a8d66bd2b0cdb33",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/ChainlinkClient.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Chainlink.sol",
+        "./interfaces/ENSInterface.sol",
+        "./interfaces/LinkTokenInterface.sol",
+        "./interfaces/ChainlinkRequestInterface.sol",
+        "./interfaces/OperatorInterface.sol",
+        "./interfaces/PointerInterface.sol",
+        "./vendor/ENSResolver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ChainlinkClient"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/interfaces/ENSInterface.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "1fc6b32764ae8e9ea524521ea2ddc8e1",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/interfaces/ENSInterface.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ENSInterface"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "8c068fd58a90618e69a53e5f4accf0e2",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LinkTokenInterface"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/interfaces/ChainlinkRequestInterface.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "563c35e33067a0044581b712653caca5",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/interfaces/ChainlinkRequestInterface.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ChainlinkRequestInterface"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/interfaces/PointerInterface.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "87c8405d1c700433ade31f5bb27c3bf8",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/interfaces/PointerInterface.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PointerInterface"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/vendor/ENSResolver.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "051a1f4122807494b611499844fd64f2",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/vendor/ENSResolver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ENSResolver"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/interfaces/OperatorInterface.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "a93e5a968a7faed47f698cce71c95101",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/interfaces/OperatorInterface.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./OracleInterface.sol",
+        "./ChainlinkRequestInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OperatorInterface"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/interfaces/OracleInterface.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "544fd57fedfe3b15167ffe0c5711b0d2",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@chainlink/contracts/src/v0.8/interfaces/OracleInterface.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OracleInterface"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/contracts/v6.3/GNSPriceAggregatorV6_3.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "41add88c156f043a44bf83a341857bd4",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/contracts/v6.3/GNSPriceAggregatorV6_3.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../@chainlink/contracts/src/v0.8/ChainlinkClient.sol",
+        "./TWAPPriceGetter.sol",
+        "../interfaces/CallbacksInterfaceV6_2.sol",
+        "../interfaces/ChainlinkFeedInterfaceV5.sol",
+        "../interfaces/StorageInterfaceV5.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "GNSPriceAggregatorV6_3"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/contracts/interfaces/CallbacksInterfaceV6_2.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "a7f001c38e6856a5b9d97621dd5e4274",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/contracts/interfaces/CallbacksInterfaceV6_2.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "CallbacksInterfaceV6_2"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/contracts/interfaces/ChainlinkFeedInterfaceV5.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "f326a1e7e9b6872042ae048766d7e722",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/contracts/interfaces/ChainlinkFeedInterfaceV5.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ChainlinkFeedInterfaceV5"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/contracts/interfaces/StorageInterfaceV5.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "35195c1e06def0a85030999e623b1ea1",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/contracts/interfaces/StorageInterfaceV5.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TokenInterfaceV5.sol",
+        "./IGToken.sol",
+        "./PairsStorageInterfaceV6.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "AggregatorInterfaceV6_2",
+        "PausableInterfaceV5",
+        "PoolInterfaceV5",
+        "StorageInterfaceV5"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/contracts/v6.3/TWAPPriceGetter.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "333f9c4b3d3fd990797d810c867a1576",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/contracts/v6.3/TWAPPriceGetter.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol",
+        "../../@uniswap/v3-core/contracts/libraries/TickMath.sol",
+        "../../@uniswap/v3-core/contracts/libraries/FixedPoint96.sol",
+        "../../@uniswap/v3-core/contracts/libraries/FullMath.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TWAPPriceGetter"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/contracts/interfaces/TokenInterfaceV5.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "59de45774fe0dd89ca5cb84546737abe",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/contracts/interfaces/TokenInterfaceV5.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TokenInterfaceV5"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/contracts/interfaces/IGToken.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "7138558defbcb6663b26c29b1c74d787",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/contracts/interfaces/IGToken.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IGToken"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/contracts/interfaces/PairsStorageInterfaceV6.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "6d000f6009891abdcf035ed06d3e4752",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/contracts/interfaces/PairsStorageInterfaceV6.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "PairsStorageInterfaceV6"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "71c59d804724fc83c78b28689171f5e7",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./pool/IUniswapV3PoolImmutables.sol",
+        "./pool/IUniswapV3PoolState.sol",
+        "./pool/IUniswapV3PoolDerivedState.sol",
+        "./pool/IUniswapV3PoolActions.sol",
+        "./pool/IUniswapV3PoolOwnerActions.sol",
+        "./pool/IUniswapV3PoolErrors.sol",
+        "./pool/IUniswapV3PoolEvents.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV3Pool"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/libraries/TickMath.sol": {
+      "lastModificationDate": 1722691931240,
+      "contentHash": "a7e1d72db1455f1c3be627484083c0fd",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/libraries/TickMath.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TickMath"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/libraries/FixedPoint96.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "f3ab03d6bbfd7c6834ecd3fc311cb0e7",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/libraries/FixedPoint96.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.0"
+      ],
+      "artifacts": [
+        "FixedPoint96"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/libraries/FullMath.sol": {
+      "lastModificationDate": 1722691931240,
+      "contentHash": "2ca3e14806bc8bf648267136cffef969",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/libraries/FullMath.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "FullMath"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolImmutables.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "e236e09a9d654fb2f20a6da5dba2bd2f",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolImmutables.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV3PoolImmutables"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolState.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "5ecd664fb45bacd4ade2c51f7b9eddae",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolState.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV3PoolState"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolDerivedState.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "dbc9532a0b72a39523853e08b48f2b1a",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolDerivedState.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV3PoolDerivedState"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolActions.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "dd2e977788cdc261f944db248704bd25",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolActions.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV3PoolActions"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolOwnerActions.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "1b06ecc79e75f836c446ccf286e671e4",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolOwnerActions.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV3PoolOwnerActions"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolErrors.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "fd36e4ca901988568ec1f3c5d4f58f84",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolErrors.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV3PoolErrors"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolEvents.sol": {
+      "lastModificationDate": 1722691931241,
+      "contentHash": "902eae5e06639b6e86e02457473ff165",
+      "sourceName": "contracts/GNSPriceAggregatorV6_3/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolEvents.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV3PoolEvents"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GFarm2Token.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "cf9325db47aa97bf4036109120df970a",
+      "sourceName": "contracts/GFarm2Token.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.2 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        "0.6.6",
+        "0.6.6",
+        "0.6.6",
+        "0.6.6",
+        "0.6.6",
+        "0.6.6",
+        "0.6.6"
+      ],
+      "artifacts": [
+        "AccessControl",
+        "AccessControlMixin",
+        "Address",
+        "Context",
+        "ContextMixin",
+        "EIP712Base",
+        "ERC20",
+        "ERC20Capped",
+        "EnumerableSet",
+        "GFarm2Token",
+        "IChildToken",
+        "IERC20",
+        "Initializable",
+        "NativeMetaTransaction",
+        "SafeMath"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GFarmTradingStorageV5.sol": {
+      "lastModificationDate": 1722748225816,
+      "contentHash": "d4956f6f77f3925ec8e96e4865f236ba",
+      "sourceName": "contracts/GFarmTradingStorageV5.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.7",
+        "0.8.7",
+        "0.8.7",
+        "0.8.7",
+        "0.8.7"
+      ],
+      "artifacts": [
+        "AggregatorInterfaceV5",
+        "GFarmTradingStorageV5",
+        "PausableInterfaceV5",
+        "PoolInterfaceV5",
+        "TokenInterfaceV5"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPairInfosV6_1.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "48a5fe3fba90e403dc710b50dd4875eb",
+      "sourceName": "contracts/GNSPairInfosV6_1.sol",
+      "solcConfig": {
+        "version": "0.8.14",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.14",
+        "0.8.14",
+        "0.8.14",
+        "0.8.14",
+        "0.8.14",
+        "0.8.14"
+      ],
+      "artifacts": [
+        "AggregatorInterfaceV6",
+        "GNSPairInfosV6_1",
+        "PairsStorageInterfaceV6",
+        "StorageInterfaceV5",
+        "TokenInterfaceV5",
+        "UniswapRouterInterfaceV5",
+        "VaultInterfaceV5"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSTradingV6_1.sol": {
+      "lastModificationDate": 1722748933738,
+      "contentHash": "6df5511dc0e8f54234c242d6251a60d8",
+      "sourceName": "contracts/GNSTradingV6_1.sol",
+      "solcConfig": {
+        "version": "0.8.14",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.14",
+        "0.8.14",
+        "0.8.14",
+        "0.8.14",
+        "0.8.14",
+        "0.8.14",
+        "0.8.14"
+      ],
+      "artifacts": [
+        "AggregatorInterfaceV6",
+        "GNSPairInfosInterfaceV6",
+        "GNSTradingV6_1",
+        "PairsStorageInterfaceV6",
+        "StorageInterfaceV5",
+        "TokenInterfaceV5",
+        "UniswapRouterInterfaceV5",
+        "VaultInterfaceV5"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSPairStorageV6.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "8aa9c526399f669a87b38888d9d023ad",
+      "sourceName": "contracts/GNSPairStorageV6.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.11",
+        "0.8.11",
+        "0.8.11",
+        "0.8.11",
+        "0.8.11",
+        "0.8.11"
+      ],
+      "artifacts": [
+        "AggregatorInterfaceV6",
+        "GNSPairsStorageV6",
+        "PairsStorageInterfaceV6",
+        "StorageInterfaceV5",
+        "TokenInterfaceV5",
+        "UniswapRouterInterfaceV5",
+        "VaultInterfaceV5"
+      ]
+    },
+    "/Users/arunachalam/Downloads/Archive (2)/contracts/GNSStakingV6_2.sol": {
+      "lastModificationDate": 1722691931242,
+      "contentHash": "5d9aa0b0f7d7102a57b2d4a6bc564516",
+      "sourceName": "contracts/GNSStakingV6_2.sol",
+      "solcConfig": {
+        "version": "0.8.15",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.15",
+        "0.8.15"
+      ],
+      "artifacts": [
+        "GNSStakingV6_2",
+        "TokenInterfaceV5"
+      ]
+    }
+  }
+}
